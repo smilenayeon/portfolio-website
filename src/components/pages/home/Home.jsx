@@ -7,7 +7,9 @@ function Home() {
     <div className="home-page">
     <div className="profile-container">
     <img className="profile" src={Profile} alt="profile"/>
+    <div className="circle"></div>
     </div>
+    
     <div className="home-text">
       <h1> Hello, I'm Na Yeon</h1>
       <h2>Frontend Developer</h2>
