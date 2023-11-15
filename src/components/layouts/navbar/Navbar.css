@@ -43,7 +43,7 @@
     color:rgb(27, 3, 27)
 }
 .navbar-links a:hover{
-    color:#B880E0;
+    color:#A668CF;
 }
 
 .hamburger-menu{
@@ -77,6 +77,21 @@
     bottom: 7px;
 }
 
+.bars.open {
+    background-color: transparent;
+  }
+ 
+  .bars.open::before {
+    transform: translateY(10px) rotate(45deg);
+  }
+  
+  .bars.open::after {
+    transform: translateY(-10px) rotate(-45deg);
+  }
+
+.fa-lightbulb{
+    font-size: 2rem;
+}
 @media (min-width:768px){
     .hamburger-menu{
         display: none;

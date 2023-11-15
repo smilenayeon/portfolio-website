@@ -11,15 +11,16 @@ function Navbar() {
         <h1><span className="logo-highlight">N</span>a<span className="logo-highlight">Y</span>eon</h1>
     </div>
     <button className="hamburger-menu" onClick={toggleOpen}>
-        <div className="bars"></div>
+        <div className={`bars ${isOpen ? 'open' : ''}`}></div>
     </button>
 
     <ul className= {`navbar-links ${isOpen ? 'visible' : 'hidden'}`}>
-    <li><Link to="/">Home</Link></li>
-    <li><Link to="/projects">Projects</Link></li>
-    <li><Link to="/about">About</Link></li>
-    <li><Link to="/skills">Skills</Link></li>
-    <li><Link to="/contact-me">Contact Me</Link></li>
+    <li onClick={toggleOpen} ><Link to="/">Home</Link></li>
+    <li onClick={toggleOpen} ><Link to="/projects">Projects</Link></li>
+    <li onClick={toggleOpen} ><Link to="/about">About</Link></li>
+    <li onClick={toggleOpen} ><Link to="/skills">Skills</Link></li>
+    <li onClick={toggleOpen} ><Link to="/contact-me">Contact Me</Link></li>
+    <li><i className="fa-solid fa-lightbulb"></i></li>
     </ul>
     </div>
   )
