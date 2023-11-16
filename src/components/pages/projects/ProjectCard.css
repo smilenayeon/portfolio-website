@@ -54,6 +54,7 @@ line-height: 1.8rem;
     padding: 0 1rem;
     margin: 4px 8px;
 }
+  
 
 @media (max-width:640px){
     .project-card{
@@ -70,11 +71,20 @@ line-height: 1.8rem;
     .buttons{
         display: block;
         text-align: center;
-        
     }
     .project-card button{
         width: 240px;
         height: 50px;
         margin:3px;
+    }
+    .project-card:nth-of-type(1) .description {
+        margin-bottom:0;
+    }
+}
+
+@media (min-width:750px){
+                                /* to align the first card's description with next cards*/
+  .project-card:nth-of-type(1) .description {
+    margin-bottom:6rem;
     }
 }

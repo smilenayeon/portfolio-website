@@ -8,7 +8,7 @@ function Navbar() {
   return (
     <div className="navbar">
     <div className="logo">
-        <h1><span className="logo-highlight">N</span>a<span className="logo-highlight">Y</span>eon</h1>
+        <h1><span className="logo-highlight">D</span>ia<span className="logo-highlight">n</span>a</h1>
     </div>
     <button className="hamburger-menu" onClick={toggleOpen}>
         <div className={`bars ${isOpen ? 'open' : ''}`}></div>
