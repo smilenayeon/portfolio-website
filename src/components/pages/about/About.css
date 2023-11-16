@@ -1,0 +1,29 @@
+.about-page{
+    cursor: url("../../../assets/images/baby-dragon-32x32.png"), auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.about-main-title{ 
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family:'Pacifico', cursive;
+}
+.about-main-title > span{
+    color:#A668CF;
+    font-family: "Roboto", sans-serif;
+
+}
+
+
+.about-paragraphs{
+    font-size: 1;
+    font-weight:500;
+    line-height: 1.5rem;
+    margin:10%;
+    text-indent: 2rem;
+}
+
+em {
+    color:red;
+}

@@ -5,7 +5,7 @@ function ProjectCard({ image, title, description, link, github }) {
   return (
     <div className="project-card">
         <img className="project-card-image" src={image} alt={title}/>
-        <h2 className="title">{title}</h2>
+        <h2 className="project-card-title">{title}</h2>
         <p className="description">{description}</p>
         <div className="buttons">
           <a href={link}><button>Live Web</button></a>

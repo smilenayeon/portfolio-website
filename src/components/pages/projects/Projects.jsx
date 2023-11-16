@@ -5,8 +5,8 @@ import "./Projects.css";
 
 function Projects() {
   return (
-    <div>
-      <h1 className="project-main-title">Projects</h1>
+    <div className="project-page">
+      <h1 className="project-main-title">- Projects -</h1>
       <div className="card-stage">
       {ProjectData.map(({ image, title, description, link, github }, index) => (
         <ProjectCard

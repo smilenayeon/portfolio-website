@@ -4,12 +4,14 @@
     align-items: center;
     position:relative;
     height: 8vh;
+    cursor: url("../../../assets/images/baby-dragon-32x32.png"), auto;
 }
 .logo{
     font-family:'Pacifico', cursive;
     color:#A668CF;
    text-shadow: 3px 3px 5px #d297fd, -1px -1px 2px rgba(255, 255, 255, 0.4);
-   margin:0 5px; 
+   margin:0 5px;
+  
 }
 .logo-highlight{
     text-shadow: 3px 3px 5px #d297fd, -1px -1px 2px rgb(161, 152, 179);
@@ -30,6 +32,7 @@
     justify-content: space-around;
     align-items: flex-start;
     padding: 20px 0 20px 40px;
+    cursor: pointer;
 
 }
 .navbar-links.hidden{
@@ -39,8 +42,8 @@
 .navbar-links a{
     text-decoration: none;
     font-weight: 600;
-    font-size:1.5rem;
-    color:rgb(27, 3, 27)
+    font-size:1.3rem;
+    color:rgb(27, 3, 27);
 }
 .navbar-links a:hover{
     color:#A668CF;
@@ -53,6 +56,7 @@
     padding: 0;
     border:2px solid #B880E0;
     border-radius:4px;
+    cursor: pointer;
 }
 
 .bars,
@@ -79,10 +83,11 @@
 
 .bars.open {
     background-color: transparent;
+    
   }
  
   .bars.open::before {
-    transform: translateY(10px) rotate(45deg);
+    transform: translateY(9px) rotate(45deg);
   }
   
   .bars.open::after {
@@ -92,6 +97,7 @@
 .fa-lightbulb{
     font-size: 2rem;
 }
+
 @media (min-width:768px){
     .hamburger-menu{
         display: none;
@@ -101,14 +107,12 @@
         list-style: none;
         font-family: 'Roboto', sans-serif;
         display: flex;
-        gap:5%;
         flex-direction: row;
         justify-content: space-around;
-        align-items: flex-start;
+        align-items: center;
         position:static;
         background-color: white;
-        width:70%;
-    
+        width:50%;
     }
   
 }

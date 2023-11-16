@@ -1,5 +1,12 @@
+.project-page{
+    cursor: url("../../../assets/images/baby-dragon-32x32.png"), auto;
+}
 .project-main-title{
+    font-size: 1.5rem;
     color:#3a1752;
+    width:fit-content;
+    margin-left:2%;
+  
 }
 .card-stage{
     display: flex;

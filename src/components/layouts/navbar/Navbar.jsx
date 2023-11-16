@@ -15,12 +15,12 @@ function Navbar() {
     </button>
 
     <ul className= {`navbar-links ${isOpen ? 'visible' : 'hidden'}`}>
-    <li onClick={toggleOpen} ><Link to="/">Home</Link></li>
-    <li onClick={toggleOpen} ><Link to="/projects">Projects</Link></li>
-    <li onClick={toggleOpen} ><Link to="/about">About</Link></li>
-    <li onClick={toggleOpen} ><Link to="/skills">Skills</Link></li>
-    <li onClick={toggleOpen} ><Link to="/contact-me">Contact Me</Link></li>
-    <li><i className="fa-solid fa-lightbulb"></i></li>
+      <li onClick={toggleOpen} ><Link to="/">Home</Link></li>
+      <li onClick={toggleOpen} ><Link to="/projects">Projects</Link></li>
+      <li onClick={toggleOpen} ><Link to="/about">About</Link></li>
+      <li onClick={toggleOpen} ><Link to="/skills">Skills</Link></li>
+      <li onClick={toggleOpen} ><Link to="/contact-me">Contact</Link></li>
+      <li><i className="fa-solid fa-lightbulb"></i></li>
     </ul>
     </div>
   )
