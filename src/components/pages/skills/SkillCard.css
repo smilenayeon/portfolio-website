@@ -1,0 +1,18 @@
+.skill-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.skill-card-logo{
+    height:60px;
+    width:50px;
+    object-fit: contain;
+}
+
+.skill-card-title{
+font-size: 1rem;
+margin:0;
+}
