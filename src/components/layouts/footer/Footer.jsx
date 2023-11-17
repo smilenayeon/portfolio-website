@@ -33,7 +33,7 @@ function Footer() {
           <Link to="/skills">Skills</Link>
         </li>
         <li onClick={scrollToTop}>
-          <Link to="/contact" >Contact</Link>
+          <Link to="/contact">Contact</Link>
         </li>
       </ul>
     </div>
