@@ -1,5 +1,8 @@
 .skills-page{
-    margin:12px;
+    padding:12px;
+}
+.skills-page.dark{
+    background-color:rgb(197, 191, 191);
 }
 
 .skill-main-title{

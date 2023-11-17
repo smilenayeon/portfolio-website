@@ -9,6 +9,11 @@
     gap:7px;
     line-height: 1.5rem;
 }
+
+.project-card.dark{
+    background-color: rgb(197, 191, 191);
+}
+
 .project-card-image{
     width:295px;
     height:296px;

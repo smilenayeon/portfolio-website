@@ -1,10 +1,12 @@
-import React from "react";
+import React,{useContext} from "react";
 import "./About.css";
 import Profile from "../../../assets/images/profile.jpg";
+import {ThemeContext} from "../../ThemeContext";
 
 function About() {
+  const {isDark}=useContext(ThemeContext);
   return (
-    <div className="about-page">
+    <div className={`about-page ${isDark?"dark":""}`}>
       <h1 className="about-main-title">
         About... <span>Diana Go </span>
       </h1>

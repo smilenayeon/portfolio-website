@@ -1,11 +1,16 @@
 .project-page{
     cursor: url("../../../assets/images/baby-dragon-32x32.png"), auto;
+    padding-top:2vh;
+}
+.project-page.dark{
+    background-color:rgb(197, 191, 191);
 }
 .project-main-title{
     font-size: 1.5rem;
     color:#3a1752;
     width:fit-content;
     margin-left:2%;
+    margin-top:0;
   
 }
 .card-stage{

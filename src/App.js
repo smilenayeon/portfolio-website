@@ -8,10 +8,12 @@ import About from "./components/pages/about/About";
 import Skills from "./components/pages/skills/Skills";
 import ContactMe from  "./components/pages/contact-me/ContactMe"
 import Footer from "./components/layouts/footer/Footer";
+import ThemeProvider from "./components/ThemeContext";
 
 function App() {
   return (
     <div className="App">
+    <ThemeProvider>
     <BrowserRouter>
 
     <Navbar/>
@@ -24,6 +26,7 @@ function App() {
     </Routes>
     <Footer/>
     </BrowserRouter>
+    </ThemeProvider>
     </div>
   );
 }

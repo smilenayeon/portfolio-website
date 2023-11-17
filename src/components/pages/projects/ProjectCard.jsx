@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import "./ProjectCard.css";
+import { ThemeContext } from '../../ThemeContext';
 
 function ProjectCard({ image, title, description, link, github }) {
+  const{isDark}=useContext(ThemeContext);
   return (
-    <div className="project-card">
+    <div className={`project-card ${isDark?"dark":""}`}>
         <img className="project-card-image" src={image} alt={title}/>
         <h2 className="project-card-title">{title}</h2>
         <p className="description">{description}</p>

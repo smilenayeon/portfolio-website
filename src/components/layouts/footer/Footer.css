@@ -1,10 +1,14 @@
 
 .footer-section{
-    margin-top:11vh;
+   padding-top:5vh;
     display:flex;
     justify-content: space-around;
     align-items: center;
-    background: linear-gradient(0deg, rgb(105, 61, 134) 0%, rgba(218, 174, 250, 0.674) 100%);
+    background: linear-gradient(0deg, rgb(105, 61, 134) 0%, rgb(255, 255, 255) 100%);
+}
+
+.footer-section.dark{
+    background: linear-gradient(0deg, rgb(105, 61, 134) 0%, rgb(197, 191, 191) 100%);
 }
 
 .footer-outer-links>a>img{
@@ -26,10 +30,12 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
     color:rgb(248, 244, 252);
-    line-height: 1.3rem;
+    line-height: 1.5rem;
+    text-shadow: 0 0 3px grey;
 }
 
 .footer-nav>li>a:hover{
     color:blueviolet;
     background-color:  rgb(248, 244, 252);
+  
 }

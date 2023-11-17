@@ -1,10 +1,12 @@
-import React from 'react';
+import React,{useContext} from 'react';
 import Profile from "../../../assets/images/profile.jpg";
 import "./Home.css";
+import { ThemeContext } from '../../ThemeContext';
 
 function Home() {
+  const {isDark} = useContext(ThemeContext);
   return (
-    <div className="home-page">
+    <div className={`home-page ${isDark?"dark" :""}`}>
     <div className="profile-container">
     <img className="profile" src={Profile} alt="profile"/>
     <div className="circle"></div>

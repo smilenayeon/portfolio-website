@@ -3,16 +3,22 @@
     justify-content: space-around;
     align-items: center;
     position:relative;
-    height: 8vh;
+    height: 13vh;
     cursor: url("../../../assets/images/baby-dragon-32x32.png"), auto;
+    background-color: white;
 }
+
+.navbar.dark{
+    background-color:rgb(197, 191, 191);
+}
+
 .logo{
     font-family:'Pacifico', cursive;
     color:#A668CF;
    text-shadow: 3px 3px 5px #d297fd, -1px -1px 2px rgba(255, 255, 255, 0.4);
    margin:0 5px;
-  
 }
+
 .logo-highlight{
     text-shadow: 3px 3px 5px #d297fd, -1px -1px 2px rgb(161, 152, 179);
 }
@@ -22,8 +28,8 @@
     font-family: 'Roboto', sans-serif;
     display:block;
     position:absolute;
-    top:6vh;
-    background-color: rgb(253, 246, 246);
+    top:8vh;
+    background-color: inherit;
     width:100%;
     z-index:999;
     display: flex;
@@ -33,11 +39,13 @@
     align-items: flex-start;
     padding: 20px 0 20px 40px;
     cursor: pointer;
-
 }
+
+
 .navbar-links.hidden{
     display: none;
 }
+
 
 .navbar-links a{
     text-decoration: none;
@@ -45,9 +53,12 @@
     font-size:1.3rem;
     color:rgb(27, 3, 27);
 }
+
 .navbar-links a:hover{
     color:#A668CF;
 }
+
+
 
 .hamburger-menu{
     height:2.5rem;
@@ -57,6 +68,11 @@
     border:2px solid #B880E0;
     border-radius:4px;
     cursor: pointer;
+    background-color: inherit;
+}
+
+.hamburger-menu:hover{
+    box-shadow:0 0 10px #B880E0;
 }
 
 .bars,
@@ -94,8 +110,12 @@
     transform: translateY(-10px) rotate(-45deg);
   }
 
-.fa-lightbulb{
+.theme-switch{
     font-size: 2rem;
+    cursor: pointer;
+}
+.theme-switch.dark{
+    color:white;
 }
 
 @media (min-width:768px){
@@ -111,8 +131,9 @@
         justify-content: space-around;
         align-items: center;
         position:static;
-        background-color: white;
         width:50%;
+        padding: 20px 0 20px 40px;
+        gap:1rem;
     }
   
 }
