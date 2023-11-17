@@ -12,7 +12,7 @@ function Home() {
     
     <div className="home-text">
     <h1 className="greeting">
-    <span>H</span><span>e</span><span>l</span><span>l</span><span>o</span>, <span>I</span>'<span>m</span> <span>N</span><span>a</span> <span>Y</span><span>e</span><span>o</span><span>n</span>
+    <span>H</span><span>e</span><span>l</span><span>l</span><span>o</span>, <span>I</span>'<span>m</span> <span>D</span><span>i</span><span>a</span><span>n</span><span>a</span>
 </h1>
 
 <h2 className="job-title">

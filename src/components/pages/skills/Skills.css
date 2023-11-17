@@ -27,5 +27,5 @@
 @media (min-width:650px){
     .skill-card-stage{
         grid-template-columns: repeat(5,1fr);
-        grid-template-rows:repeat(2,1fr);}
+        grid-template-rows:repeat(3,1fr);}
 }

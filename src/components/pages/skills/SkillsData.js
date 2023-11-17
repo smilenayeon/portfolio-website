@@ -8,6 +8,8 @@ import NodeJS from "../../../assets/images/NodeJS.svg";
 import JQuery from "../../../assets/images/JQuery.svg";
 import Bootstrap from "../../../assets/images/Bootstrap.svg";
 import Figma from "../../../assets/images/Figma.png";
+import Jest from "../../../assets/images/Jest.svg";
+
     class Skill {
         image="";
         title="";
@@ -27,6 +29,7 @@ import Figma from "../../../assets/images/Figma.png";
         new Skill (JQuery, "JQuery"),
         new Skill (Bootstrap, "Bootstrap"),
         new Skill (Figma, "Figma"),
+        new Skill (Jest, "Jest"),
     ];
 
 export default SkillsData;
