@@ -50,6 +50,8 @@
     width:200px;
     height:200px;
     margin: 2rem 0;
+    z-index: 3;
+    position: relative;
 }
 
 
