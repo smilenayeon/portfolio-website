@@ -1,0 +1,112 @@
+.contact-page{
+    position:relative;
+}
+
+.contact-page.dark{
+    background-color:rgb(197, 191, 191);
+}
+
+.contact-board{
+    background-color: #873bb9a1;
+    border-radius: 0% 100% 100% 0% / 71% 0% 100% 29% ;
+    width:50%;
+}
+
+.contact-page.dark{
+    background-color: rgb(197, 191, 191);
+}
+
+.contact-main-title{
+    margin:0;
+    font-size: 1.5rem;
+    color:#3a1752;
+    padding:15px;
+}
+
+.message-form{
+    display: flex;
+    flex-direction: column;
+    gap:0.5rem;
+    width:50vw;
+    margin-left:10%;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+input{
+    margin-bottom:1rem;
+    color:#3a1752;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+input:focus {
+    caret-color:#3a1752;
+    background-color: #d8bdec;
+    transform: scale(1.1);
+
+  }
+
+.submit-button{
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 1rem;
+   padding: 10px 0;
+   width:200px;
+   align-self: center;
+   background-color: #a465d1;
+   box-shadow: 2px 2px 5px #834bab;
+   border:1px solid #723b99;
+}
+
+.submit-button:hover{
+    transform: scale(0.9);
+    box-shadow: 0 0 10px #7e46a7;
+}
+
+.submit-button.hidden{
+    display: none;
+}
+.compose-email-button{
+    display: none;
+    text-decoration: none;
+}
+
+a { text-decoration: none; }
+
+.compose-email-button.shown{
+    display: block;
+    color:rgb(243, 237, 244);
+    font-size: 1.5rem;
+    font-weight: 600;
+    border:none;
+    border-radius: 10px;
+    padding:10px;
+    background: linear-gradient(90deg, #74369e 0%, rgb(140, 81, 177) 12%, rgb(183, 118, 229) 51%);
+    width: 240px;
+    height: 80px;
+    box-shadow: 0 3px 5px #74369e;
+    position:absolute;
+    right:8vw;
+    bottom:2vh;
+   
+
+}
+.compose-email-button.shown:hover{
+    transform:scale(0.9);
+    box-shadow: none;
+    background: linear-gradient(90deg, #b155ef 0%, rgb(186, 119, 228) 12%,rgb(219, 174, 251)51%);
+    color:#74369e;
+    font-weight: 700;
+    font-size: 1.7rem;
+    cursor:pointer;
+}
+
+
+@media (max-width:768px) {
+    .compose-email-button.shown{
+        position: static;
+        margin-left:10%;
+    }
+
+}

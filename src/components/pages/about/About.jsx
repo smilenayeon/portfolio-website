@@ -7,9 +7,12 @@ function About() {
   const {isDark}=useContext(ThemeContext);
   return (
     <div className={`about-page ${isDark?"dark":""}`}>
-      <h1 className="about-main-title">
-        About... <span>Diana Go </span>
-      </h1>
+      <div className="title-CV-container">
+        <h1 className="about-main-title">
+          About... <span>Diana Go </span>
+        </h1>
+        <a  className="link-for-CV" target="_blank" href="https://drive.google.com/file/d/1s4T2yjeuelnntC2SlPtKU5FzxZMAWVXD/view?usp=drive_link">Download CV</a>
+      </div>
       <img className="about-profile" src={Profile} alt="profile_Diana" />
       <div className="about-paragraphs">
         <p>

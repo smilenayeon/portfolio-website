@@ -6,7 +6,7 @@ import Home from "./components/pages/home/Home";
 import Projects from "./components/pages/projects/Projects";
 import About from "./components/pages/about/About";
 import Skills from "./components/pages/skills/Skills";
-import ContactMe from  "./components/pages/contact-me/ContactMe"
+import Contact from  "./components/pages/contact/Contact"
 import Footer from "./components/layouts/footer/Footer";
 import ThemeProvider from "./components/ThemeContext";
 
@@ -22,7 +22,7 @@ function App() {
       <Route path="/projects" element={<Projects/>}/>
       <Route path="/about" element={<About/>}/>
       <Route path="/skills" element={<Skills/>}/>
-      <Route path="/contact-me" element={<ContactMe/>}/>
+      <Route path="/contact" element={<Contact/>}/>
     </Routes>
     <Footer/>
     </BrowserRouter>

@@ -2,9 +2,11 @@ import React,{useContext} from 'react';
 import Profile from "../../../assets/images/profile.jpg";
 import "./Home.css";
 import { ThemeContext } from '../../ThemeContext';
+import { useNavigate } from 'react-router-dom';
 
 function Home() {
   const {isDark} = useContext(ThemeContext);
+  const navigate=useNavigate();
   return (
     <div className={`home-page ${isDark?"dark" :""}`}>
     <div className="profile-container">
@@ -25,9 +27,7 @@ function Home() {
     <span>B</span><span>r</span><span>i</span><span>n</span><span>g</span><span>i</span><span>n</span><span>g</span> <span>Y</span><span>o</span><span>u</span><span>r</span> <span>D</span><span>i</span><span>g</span><span>i</span><span>t</span><span>a</span><span>l</span> <span>V</span><span>i</span><span>s</span><span>i</span><span>o</span><span>n</span><span>s</span> <span>t</span><span>o</span> <span>L</span><span>i</span><span>f</span><span>e</span>
 </h3>
 
-      <a href="mailto:smilenayeon@gmail.com?subject=Let's work together!&body= Dear Na Yeon, ">
-        <button className="home-contact-me">Contact Me <i className="fa-regular fa-paper-plane"></i></button>
-      </a>
+        <button className="home-contact-me" onClick={()=>navigate("/contact")}>Contact Me <i className="fa-regular fa-paper-plane"></i></button>
 
       </div>
 

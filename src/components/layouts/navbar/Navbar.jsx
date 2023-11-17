@@ -24,7 +24,7 @@ function Navbar() {
       <li onClick={toggleOpen} ><Link to="/projects">Projects</Link></li>
       <li onClick={toggleOpen} ><Link to="/about">About</Link></li>
       <li onClick={toggleOpen} ><Link to="/skills">Skills</Link></li>
-      <li onClick={toggleOpen} ><Link to="/contact-me">Contact</Link></li>
+      <li onClick={toggleOpen} ><Link to="/contact">Contact</Link></li>
       <li onClick={toggleOpen}><i className={`fa-solid fa-lightbulb theme-switch ${isDark ? "dark" : ""}`}  onClick={themeSwitch}></i></li>
     </ul>
     </div>
