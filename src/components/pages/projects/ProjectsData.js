@@ -19,7 +19,7 @@ class Project  {
   }
 }
 const ProjectData = [
-    new Project(DesignWeb, "Web-Design Company Website", "Rebuilt the website with additional improvements", "https://www.naver.com", "https://github.com/smilenayeon/Web-Design-Company-Website.git"),
+    new Project(DesignWeb, "Web-Design Company Website", "Rebuilt the website with additional improvements", "https://reliable-cannoli-5f26d4.netlify.app", "https://github.com/smilenayeon/Web-Design-Company-Website.git"),
     new Project(Game, "ESL Card Game", "An interactive and engaging way for users to learn and review new English words. Through a fun matching game format, players are challenged to pair words, enhancing their language skill. After each game session, users can view their results.", "https://www.google.com", "https://github.com/smilenayeon/game.git"),
     new Project(Todo, "To-Do List", "A user-friendly CRUD application, enabling users to seamlessly create, view, update, and delete tasks. It enhances task management with a visual progress tracker, displayed as a circular bar with percentage completion, helping users stay motivated and organized.", "https://www.nate.com", "https://github.com/smilenayeon/todo-list.git"),
     new Project(Weather, "Simply Weather", "The application provides real-time weather updates for a variety of cities, sourcing its data from a Weather API.", "https://www.naver.com", "https://github.com/smilenayeon/Simply-Weather.git"),
