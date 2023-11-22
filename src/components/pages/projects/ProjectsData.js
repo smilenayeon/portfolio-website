@@ -24,7 +24,7 @@ const ProjectData = [
     new Project(Todo, "To-Do List", "A user-friendly CRUD application, enabling users to seamlessly create, view, update, and delete tasks. It enhances task management with a visual progress tracker, displayed as a circular bar with percentage completion, helping users stay motivated and organized.", "https://dianago-todolist.netlify.app/", "https://github.com/smilenayeon/todo-list.git"),
     new Project(Weather, "Simply Weather", "The application provides real-time weather updates for a variety of cities, sourcing its data from a Weather API.", "https://dianago-simply-weather.netlify.app/", "https://github.com/smilenayeon/Simply-Weather.git"),
     new Project(ComingSoon, "Sign Up, Log In & Survey", "Users have the ability to sign up, log in, and submit their surveys. Firebase is utilized as the backend server for these operations.", "","" ),
-    new Project(ComingSoon, "Movie Search", "Users can instantly search for movies from a database, with the search results updating in real-time and debouncing implemented to optimize performance by reducing the frequency of search queries.", "","" ),
+    new Project(ComingSoon, "Movie Search", "Users can instantly search for movies from a database, with the search results updating in real-time and debouncing implemented to optimize performance by reducing the frequency of search queries.", "","https://github.com/smilenayeon/movie-website.git" ),
   ];
 
 export default ProjectData;

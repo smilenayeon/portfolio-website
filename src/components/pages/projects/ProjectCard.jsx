@@ -10,8 +10,8 @@ function ProjectCard({ image, title, description, link, github }) {
         <h2 className="project-card-title">{title}</h2>
         <p className="description">{description}</p>
         <div className="buttons">
-          <a href={link}><button>Live Web</button></a>
-        <a href={github}><button>GitHub</button></a>  
+        <a href={link} target="_blank" rel="noopener noreferrer"><button>Live Web</button></a>
+        <a href={github} target="_blank" rel="noopener noreferrer"><button>GitHub</button></a>
         </div>
         
     </div>
