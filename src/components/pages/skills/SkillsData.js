@@ -9,6 +9,7 @@ import JQuery from "../../../assets/images/JQuery.svg";
 import Bootstrap from "../../../assets/images/Bootstrap.svg";
 import Figma from "../../../assets/images/Figma.png";
 import Jest from "../../../assets/images/Jest.svg";
+import TypeScript from "../../../assets/images/Typescript.png";
 
     class Skill {
         image="";
@@ -30,6 +31,7 @@ import Jest from "../../../assets/images/Jest.svg";
         new Skill (Bootstrap, "Bootstrap"),
         new Skill (Figma, "Figma"),
         new Skill (Jest, "Jest"),
+        new Skill (TypeScript, "TypeScript")
     ];
 
 export default SkillsData;
