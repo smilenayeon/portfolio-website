@@ -3,6 +3,7 @@ import Game from "../../../assets/images/game.jpg";
 import Todo from  "../../../assets/images/todo.jpg";
 import Weather from  "../../../assets/images/weather.jpg";
 import ComingSoon from "../../../assets/images/coming-soon.jpg";
+import MovieSearch from "../../../assets/images/movie-search.png";
 
 class Project  {
   image="";
@@ -24,7 +25,7 @@ const ProjectData = [
     new Project(Todo, "To-Do List", "A user-friendly CRUD application, enabling users to seamlessly create, view, update, and delete tasks. It enhances task management with a visual progress tracker, displayed as a circular bar with percentage completion, helping users stay motivated and organized.", "https://dianago-todolist.netlify.app/", "https://github.com/smilenayeon/todo-list.git"),
     new Project(Weather, "Simply Weather", "The application provides real-time weather updates for a variety of cities, sourcing its data from a Weather API.", "https://dianago-simply-weather.netlify.app/", "https://github.com/smilenayeon/Simply-Weather.git"),
     new Project(ComingSoon, "Sign Up, Log In & Survey", "Users have the ability to sign up, log in, and submit their surveys. Firebase is utilized as the backend server for these operations.", "","" ),
-    new Project(ComingSoon, "Movie Search", "Users can instantly search for movies from a database, with the search results updating in real-time and debouncing implemented to optimize performance by reducing the frequency of search queries.", "","https://github.com/smilenayeon/movie-website.git" ),
+    new Project(MovieSearch, "Movie Search", "Developed a responsive and user-friendly movie search application that allows users to search for movies and view detailed information. The application is hosted on Netlify and interfaces with The Movie Database (TMDb) API to fetch real-time movie data.", "https://dianago-movie-search.netlify.app/","https://github.com/smilenayeon/movie-website.git" ),
   ];
 
 export default ProjectData;
