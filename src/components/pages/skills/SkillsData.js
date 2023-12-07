@@ -11,6 +11,9 @@ import Figma from "../../../assets/images/Figma.png";
 import Jest from "../../../assets/images/Jest.svg";
 import TypeScript from "../../../assets/images/Typescript.png";
 import SASS from "../../../assets/images/SASS.svg";
+import ReactNative from "../../../assets/images/ReactNative.svg";
+import PHP from "../../../assets/images/PHP.png";
+import Vue from "../../../assets/images/Vue.svg";
 
     class Skill {
         image="";
@@ -33,7 +36,10 @@ import SASS from "../../../assets/images/SASS.svg";
         new Skill (Figma, "Figma"),
         new Skill (Jest, "Jest"),
         new Skill (TypeScript, "TypeScript"),
-        new Skill (SASS, "SASS")
+        new Skill (SASS, "SASS"),
+        new Skill (ReactNative, "React Native"),
+        new Skill (PHP, "PHP"),
+        new Skill (Vue, "Vue"),
 
     ];
 
