@@ -14,6 +14,9 @@ import SASS from "../../../assets/images/SASS.svg";
 import ReactNative from "../../../assets/images/ReactNative.svg";
 import PHP from "../../../assets/images/PHP.png";
 import Vue from "../../../assets/images/Vue.svg";
+import MongoDB from "../../../assets/images/MongoDB.svg";
+import MySQL from  "../../../assets/images/mySQL.svg";
+
 
     class Skill {
         image="";
@@ -40,6 +43,9 @@ import Vue from "../../../assets/images/Vue.svg";
         new Skill (ReactNative, "React Native"),
         new Skill (PHP, "PHP"),
         new Skill (Vue, "Vue"),
+        new Skill (MongoDB, "MongoDB"),
+        new Skill (MySQL, "MySQL"),
+
 
     ];
 
