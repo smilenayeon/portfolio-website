@@ -16,7 +16,7 @@ function Footer() {
   return (
     <div className={`footer-section ${isDark?"dark":""}`}>
       <div className="footer-outer-links">
-        <a href="https://www.linkedin.com/in/diana-na-yeon-go-31998a297" target="_blank" rel="noopener noreferrer"><img src={LinkedIn} alt="LinkedIn" /></a>
+        <a href="https://www.linkedin.com/in/na-yeon-go-31998a297/" target="_blank" rel="noopener noreferrer"><img src={LinkedIn} alt="LinkedIn" /></a>
         <a href="https://github.com/smilenayeon?tab=repositories" target="_blank" rel="noopener noreferrer"><img src={GitHub} alt="GitHub" /></a>
       </div>
       <ul className="footer-nav">
