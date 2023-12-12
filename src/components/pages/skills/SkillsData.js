@@ -16,6 +16,7 @@ import PHP from "../../../assets/images/PHP.png";
 import Vue from "../../../assets/images/Vue.svg";
 import MongoDB from "../../../assets/images/MongoDB.svg";
 import MySQL from  "../../../assets/images/mySQL.svg";
+import Redux from "../../../assets/images/Redux.svg";
 
 
     class Skill {
@@ -45,6 +46,7 @@ import MySQL from  "../../../assets/images/mySQL.svg";
         new Skill (Vue, "Vue"),
         new Skill (MongoDB, "MongoDB"),
         new Skill (MySQL, "MySQL"),
+        new Skill (Redux, "Redux"),
 
 
     ];
