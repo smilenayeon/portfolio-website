@@ -23,8 +23,8 @@ const ProjectData = [
     new Project(DesignWeb, "Web-Design Company Website","https://dianago-web-design-website.netlify.app", "https://github.com/smilenayeon/Web-Design-Company-Website.git"),
     new Project(AdventCalendar, "Advent Calendar", "https://smilenayeon.github.io/Advent-Calendar/","https://github.com/smilenayeon/Advent-Calendar" ),
     new Project(Game, "ESL Card Game", "https://dianago-esl-game.netlify.app", "https://github.com/smilenayeon/game.git"),
-    new Project(Todo, "To-Do List", "https://dianago-todolist.netlify.app/", "https://github.com/smilenayeon/todo-list.git"),
     new Project(Weather, "Simply Weather", "", "https://github.com/smilenayeon/Simply-Weather.git"),
+    new Project(Todo, "To-Do List", "https://dianago-todolist.netlify.app/", "https://github.com/smilenayeon/todo-list.git"),
     new Project(MovieSearch, "Movie Search", "https://dianago-movie-search.netlify.app/","https://github.com/smilenayeon/movie-website.git" ),
   ];
 
