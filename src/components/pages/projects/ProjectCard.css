@@ -53,13 +53,7 @@ border-top:2px dotted rgb(183, 118, 229);
 border-bottom: 2px dotted rgb(183, 118, 229);
 line-height: 1.8rem;
 }
-.description{
-    font-size: 1rem;
-    font-weight:400 ;
-    padding: 0 1rem;
-    margin: 4px 8px;
-}
-  
+
 
 @media (max-width:640px){
     .project-card{
@@ -81,15 +75,5 @@ line-height: 1.8rem;
         width: 240px;
         height: 50px;
         margin:3px;
-    }
-    .project-card:nth-of-type(1) .description {
-        margin-bottom:0;
-    }
-}
-
-@media (min-width:750px){
-                                /* to align the first card's description with next cards*/
-  .project-card:nth-of-type(1) .description {
-    margin-bottom:6rem;
     }
 }
