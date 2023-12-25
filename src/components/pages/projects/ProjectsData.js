@@ -5,6 +5,7 @@ import Weather from  "../../../assets/images/weather.jpg";
 //import ComingSoon from "../../../assets/images/coming-soon.jpg";
 import MovieSearch from "../../../assets/images/movie-search.png";
 import AdventCalendar from "../../../assets/images/AdventCalendat.png";
+import NewsLetterSignUp from "../../../assets/images/newsletter-signup.jpg";
 
 class Project  {
   image="";
@@ -26,6 +27,7 @@ const ProjectData = [
     new Project(Weather, "Simply Weather", "", "https://github.com/smilenayeon/Simply-Weather.git"),
     new Project(Todo, "To-Do List", "https://dianago-todolist.netlify.app/", "https://github.com/smilenayeon/todo-list.git"),
     new Project(MovieSearch, "Movie Search", "https://dianago-movie-search.netlify.app/","https://github.com/smilenayeon/movie-website.git" ),
+    new Project(NewsLetterSignUp, "Newsletter sign-up form", "https://smilenayeon.github.io/newsletter-signup/","https://github.com/smilenayeon/newsletter-signup.git" ),
   ];
 
 export default ProjectData;
