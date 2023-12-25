@@ -29,11 +29,11 @@ function Contact() {
       await axios.post('/send-email', { name, email, message });
       alert("Message is sent. Thank you");
     } catch (error) {
-      alert("Sorry there is no server. Please send email to smilenayeon@gmail.com by clicking \"Compose Email\" button.");
       showButton();
     }
   };
-
+  //get the user's email and mesage from the form to email app
+  const mailtoLink = `mailto:smilenayeon@gmail.com?subject=Let's work together!&body=Dear Na Yeon,${encodeURIComponent(message)}&cc=${encodeURIComponent(email)}`;
   return (
     <div className={`contact-page ${isDark ? "dark" : ""}`}>
     <div className="contact-board">
@@ -45,12 +45,12 @@ function Contact() {
         <input type="email" id="email" placeholder="Your email address" onChange={handleEmailChange} required/>
       <label htmlFor="message">Message</label>
         <input type="text" id="message" placeholder="Message" value={message} onChange={handleMessageChange} required/>
-      <input  className= {`submit-button ${isShown? "hidden":""}`} type="submit" value="Submit"/>
+      <input  className= {`submit-button ${isShown? "hidden":""}`} type="submit" value="Submit" />
 
     </form>
-
+    
     </div>
-      <a href="mailto:smilenayeon@gmail.com?subject=Let's work together!&body= Dear Na Yeon, ">
+    <a href={mailtoLink}>
         <button className={`compose-email-button ${isShown?"shown":""}`}>Compose Email<i className="fa-regular fa-paper-plane"></i></button>
       </a>
     </div>
