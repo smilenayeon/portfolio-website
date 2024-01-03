@@ -25,7 +25,7 @@ class Project  {
 const ProjectData = [
     new Project(DesignWeb, "Web-Design Company Website","https://dianago-web-design-website.netlify.app", "https://github.com/smilenayeon/Web-Design-Company-Website.git"),
     new Project(AdventCalendar, "Advent Calendar", "https://smilenayeon.github.io/Advent-Calendar/","https://github.com/smilenayeon/Advent-Calendar" ),
-    new Project(CreditCard, "Interative Credit Card", "https://smilenayeon.github.io/interactive_creditcard/", "https://github.com/smilenayeon/interactive_creditcard.git")
+    new Project(CreditCard, "Interative Credit Card", "https://smilenayeon.github.io/interactive_creditcard/", "https://github.com/smilenayeon/interactive_creditcard.git"),
     new Project(Weather, "Simply Weather", "", "https://github.com/smilenayeon/Simply-Weather.git"),
     new Project(TaskTracker, "React-Redux Task Tracker", "https://dianago-task-tracker.netlify.app/", "https://github.com/smilenayeon/task-tracker.git"),
     new Project(NewsLetterSignUp, "Newsletter sign-up form", "https://smilenayeon.github.io/newsletter-signup/","https://github.com/smilenayeon/newsletter-signup.git" ),
