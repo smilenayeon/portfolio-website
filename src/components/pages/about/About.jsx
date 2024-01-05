@@ -11,7 +11,7 @@ function About() {
         <h1 className="about-main-title">
           About... <span>Diana Go </span>
         </h1>
-        <a  className="link-for-CV" target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1DcppAr359AvKI_M_wIeK__-8vt00U-Rg/view?usp=sharing">Download CV</a>
+        <a  className="link-for-CV" target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1bpDn8YZx7jXbvBRwvQQfR1PPvEKIVKrC/view?usp=sharing">Download CV</a>
       </div>
       <img className="about-profile" src={Profile} alt="profile_Diana" />
       <div className="about-paragraphs">
