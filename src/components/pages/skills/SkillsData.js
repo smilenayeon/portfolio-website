@@ -11,12 +11,15 @@ import Figma from "../../../assets/images/Figma.png";
 import Jest from "../../../assets/images/Jest.svg";
 import TypeScript from "../../../assets/images/Typescript.png";
 import SASS from "../../../assets/images/SASS.svg";
-import ReactNative from "../../../assets/images/ReactNative.svg";
+//import ReactNative from "../../../assets/images/ReactNative.svg";
 import PHP from "../../../assets/images/PHP.png";
-import Vue from "../../../assets/images/Vue.svg";
+//import Vue from "../../../assets/images/Vue.svg";
 import MongoDB from "../../../assets/images/MongoDB.svg";
 import MySQL from  "../../../assets/images/mySQL.svg";
 import Redux from "../../../assets/images/Redux.svg";
+import Recoil from "../../../assets/images/React.svg";
+import GoogleCloud from "../../../assets/images/GoogleCloud.png";
+import Firebase from "../../../assets/images/Firebase.png";
 
 
     class Skill {
@@ -41,12 +44,15 @@ import Redux from "../../../assets/images/Redux.svg";
         new Skill (Jest, "Jest"),
         new Skill (TypeScript, "TypeScript"),
         new Skill (SASS, "SASS"),
-        new Skill (ReactNative, "React Native"),
+        //new Skill (ReactNative, "React Native"),
         new Skill (PHP, "PHP"),
-        new Skill (Vue, "Vue"),
+        //new Skill (Vue, "Vue"),
         new Skill (MongoDB, "MongoDB"),
         new Skill (MySQL, "MySQL"),
         new Skill (Redux, "Redux"),
+        new Skill (Recoil, "Recoil"),
+        new Skill (Firebase, "Firebase"),
+        new Skill (GoogleCloud, "Google Cloud"),
 
 
     ];
