@@ -18,7 +18,7 @@ function Projects() {
           description={description}
           link={link}
           github={github}
-          showLiveButton={index !== 3}
+          showLiveButton
         />
       ))}
       </div>
