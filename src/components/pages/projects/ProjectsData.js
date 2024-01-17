@@ -25,7 +25,7 @@ class Project  {
   }
 }
 const ProjectData = [
-    new Project(ReactTwitter, "React Blog", " https://react-twitter-wine.vercel.app/", "https://github.com/smilenayeon/react-twitter.git"),
+    new Project(ReactTwitter, "React Twitter", " https://react-twitter-wine.vercel.app/", "https://github.com/smilenayeon/react-twitter.git"),
     new Project(ReactBlog, "React Blog", " https://react-blog-694db.web.app", "https://github.com/smilenayeon/blog-app.git"),
     new Project(DesignWeb, "Web-Design Company Website","https://dianago-web-design-website.netlify.app", "https://github.com/smilenayeon/Web-Design-Company-Website.git"),
     new Project(AdventCalendar, "Advent Calendar", "https://smilenayeon.github.io/Advent-Calendar/","https://github.com/smilenayeon/Advent-Calendar" ),
