@@ -17,7 +17,7 @@ import PHP from "../../../assets/images/PHP.png";
 import MongoDB from "../../../assets/images/MongoDB.svg";
 import MySQL from  "../../../assets/images/mySQL.svg";
 import Redux from "../../../assets/images/Redux.svg";
-import Recoil from "../../../assets/images/React.svg";
+import Recoil from "../../../assets/images/Recoil.svg";
 import GoogleCloud from "../../../assets/images/GoogleCloud.png";
 import Firebase from "../../../assets/images/Firebase.png";
 
